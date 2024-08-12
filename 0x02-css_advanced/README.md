@@ -1,0 +1,1 @@
+this project directory is all about styling the index.html to give out this output.
