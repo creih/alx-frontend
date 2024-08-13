@@ -34,6 +34,14 @@
 }
 /*ends*/
 
+/*task 15 begins on boxing rules*/
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+/*task 15 ends*/
+
 /*1-style.css begins*/
 html {
     scroll-behavior: smooth;
