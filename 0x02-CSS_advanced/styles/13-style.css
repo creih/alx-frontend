@@ -51,23 +51,22 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: var(--font-weight-bold);/*6-style.css*/
 }
 /*2-style.css continues*/
-a[href] { /*task 13 only targetting hyperlink*/
+a:link { /*task 13 only targetting hyperlink using :link*/
     color: var(--text-color);
     text-decoration: none;/*task 9 line*/
 }
-
 /*task 13 targeting visited href*/
-a[href]:visited {
+a:link:visited {
     font-style: italic;
 }
-a[href]:hover {
+a:link:hover {
     text-decoration: underline;
 }
-a[href]:active {
+a:link:active {
     color: var(--color-light-grey);
 }
-
 /*13 ends*/
+
 .visually-hidden {
     display: none;
 }
