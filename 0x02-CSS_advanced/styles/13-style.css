@@ -56,13 +56,13 @@ a:link { /*task 13 only targetting hyperlink using :link*/
     text-decoration: none;/*task 9 line*/
 }
 /*task 13 targeting visited href*/
-a:link:visited {
+a:visited {
     font-style: italic;
 }
-a:link:hover {
+a:hover {
     text-decoration: underline;
 }
-a:link:active {
+a:active {
     color: var(--color-light-grey);
 }
 /*13 ends*/
