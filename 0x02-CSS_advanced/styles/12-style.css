@@ -1,0 +1,88 @@
+/*3-style.css begins*/
+:root {
+    --color-primary: #d73953;
+    --color-black: #090909;
+    --color-white: #ffffff;
+    --color-light-grey: #f3f3f3;
+    --color-dark-grey: #353535;
+    --text-color:var(--color-black);
+    /*4-style.css begins*/
+    --font-family-base: 'Open sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;/*added in Open sans from task 7*/
+    --font-family-title: Raleway, 'Helvetica Neue', Helvetica, Arial, sans-serif;/*added raleway from task 7*/
+    /*5-style.css*/
+    --font-size-small: 1.2rem;
+    --font-size-medium: 1.6rem;
+    --font-size-large: 1.8rem;
+    --font-size-x-large: 2.3rem;
+    --font-size-xx-large: 4.8rem;
+    /*6-style.css*/
+    --font-weight-regular: 400;
+    --font-weight-bold: 700;
+    /*8-style.css*/
+    --line-height-small: 1.2;
+    --line-height-base: 1.5;
+    --line-height-big: 1.8;
+    --section-header-align: center;/*task 10 line*/
+    --section-tagline-transform: uppercase;/*task 11 line*/
+    --section-title-margin: 0;/*task 12 line*/
+    --section-title-color: var(--color-black);/*task 12 line*/
+}
+/*ends*/
+
+/*1-style.css begins*/
+html {
+    scroll-behavior: smooth;
+    font-size: 62.5%;/*5-style.css*/
+}
+/*ends*/
+
+/* 2-style.css begins */
+body {
+    /*task 4 1st line*/
+    font-family: var(--font-family-base);
+    color: var(--text-color);
+    font-size: var(--font-size-medium);/*5-style.css*/
+    font-weight: var(--font-weight-regular);/*6-style.css*/
+    line-height: var(--line-height-base);/*task 8 line*/
+}
+/*4-style.css begins*/
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-family-title);
+    font-weight: var(--font-weight-bold);/*6-style.css*/
+}
+/*2-style.css continues*/
+a {
+    color: var(--text-color);
+    text-decoration: none;/*task 9 line*/
+}
+.visually-hidden {
+    display: none;
+}
+.card-category {
+    color: var(--color-primary)
+
+}
+/*task 10 begins*/
+.section-header {
+    text-align: var(--section-header-align);
+}
+/*task 10 ends*/
+
+/*task 12 begins*/
+.section-title {
+    font-family: var(--font-family-title);
+    font-size: var(--font-size-xx-large);
+    font-weight: var(--font-weight-bold);
+    margin: var(--section-title-margin);
+    color: var(--section-title-color);
+}
+/*task 12 ends*/
+
+.section-tagline {
+    color: var(--color-primary); /* Add a semicolon at the end */
+    font-family: var(--font-family-title);/*task 11 line*/
+    text-transform: var(--section-tagline-transform);/*task 11 line*/
+    font-weight: var(--font-weight-bold);/*task 11 line*/
+}
+/*ends*/
+
