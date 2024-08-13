@@ -17,7 +17,7 @@
     --font-size-xx-large: 4.8rem;
     /*6-style.css*/
     --font-weight-regular: 400;
-    --font-wight-bold: 700;
+    --font-weight-bold: 700;
 }
 /*ends*/
 
@@ -39,7 +39,7 @@ body {
 /*4-style.css begins*/
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--font-family-title);
-    font-weight: var(--font-wight-bold);/*6-style.css*/
+    font-weight: var(--font-weight-bold);/*6-style.css*/
 }
 /*2-style.css continues*/
 a {
