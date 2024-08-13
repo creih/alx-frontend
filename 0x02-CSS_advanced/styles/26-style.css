@@ -277,7 +277,7 @@ a:active {
     width: calc(10 * 100%);
     height: calc(10 * 100%);
 }
-cite {
+.card-testimonial .card-quote cite {
     display: block;
     padding-top: 100%;
     color: var(--color-primary);
