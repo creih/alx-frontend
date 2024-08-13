@@ -40,7 +40,7 @@ body {
     color: var(--text-color);
     font-size: var(--font-size-medium);/*5-style.css*/
     font-weight: var(--font-weight-regular);/*6-style.css*/
-    line-height: var(--line-height-base);
+    line-height: var(--line-height-base);/*task 8 line*/
 }
 /*4-style.css begins*/
 h1, h2, h3, h4, h5, h6 {
