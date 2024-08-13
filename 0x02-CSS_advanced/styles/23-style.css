@@ -241,7 +241,7 @@ a:active {
     display: block;
 }
 .social-link svg {
-    fill: var(--text-color);
+    color: var(--text-color);
 }
 /* 24 ends */
 .footer {
