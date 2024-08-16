@@ -352,6 +352,7 @@ a:active {
 }
 .card-work .card-inner {
     position: absolute;
+    top: -0.1rem;
     vertical-align: -0.1rem;
     align-content: -0.1rem;
     z-index: 1;
