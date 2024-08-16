@@ -287,11 +287,12 @@ a:active {
 
 /*task 27 starts*/
 .section-hero {
-    background-size: cover;
+    /*Set the size of the background using 2-value syntax*/
+    background-size: 100% auto;
     width: 90rem;
     height: auto;
 }
-.section-title {
+.section-hero .section-title {
     margin-bottom: 5rem;
 }
 .section-hero .section-inner {
