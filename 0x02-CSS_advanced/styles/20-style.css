@@ -58,10 +58,10 @@
 /*task 15 ends*/
 
 /*task 20 starts*/
-.row + .new-row {
+.row::after {
     content: "";
     display: table;
-    clear: both; /* Ensure no floating elements on either side */
+    float: none; /* Ensure no floating elements on either side */
 }
 /*task 20 ends
 
