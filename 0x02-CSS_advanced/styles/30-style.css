@@ -395,7 +395,7 @@ a:active {
     bottom: 0;
     content: "";
 }
-.card-work:hover .card-title a::after {
+.card-work:hover .card-title {
     opacity: 1;
 }
 /*task 30 ends*/
