@@ -32,7 +32,7 @@
     --section-title-margin: 0;/*task 12 line*/
     --section-title-color: var(--color-black);/*task 12 line*/
     --section-padding: 5rem 0;/*task 17 line*/
-    ---section-header-padding: 0 0 3rem;/*task 17 line*/
+    --section-header-padding: 0 0 3rem;/*task 17 line*/
     --section-body-padding: 0 0 3rem;/*task 17 line*/
     --section-footer-padding: 3rem 0 0;/*task 17 line*/
     --section-footer-align: center;/*task 17 line*/
