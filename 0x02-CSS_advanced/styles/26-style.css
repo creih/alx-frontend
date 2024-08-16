@@ -274,8 +274,8 @@ a:active {
 }
 .card-testimonial .card-avatar{
     border-radius: 50%;
-    width: calc(10 * 100%);
-    height: calc(10 * 100%);
+    width: 10rem;
+    height: 10rem;
 }
 .card-testimonial .card-quote cite {
     display: block;
