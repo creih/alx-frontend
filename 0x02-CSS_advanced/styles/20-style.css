@@ -61,7 +61,8 @@
 .row::after {
     content: "";
     display: table;
-    float: none; /* Ensure no floating elements on either side */
+    /* Ensure no floating elements on either side */
+    clear: both;
 }
 /*task 20 ends
 
