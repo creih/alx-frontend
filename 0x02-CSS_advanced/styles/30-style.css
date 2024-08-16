@@ -357,6 +357,11 @@ a:active {
     right: -0.1rem;
     z-index: 1;
 }
+/*in selector for card-inner when card-work in hover state, background-color set to rgba(0, 0, 0, 0.7)*/
+.card-work:hover .card-inner {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
 
 .card-work .card-title {
     display: block;
