@@ -368,8 +368,18 @@ a:active {
     text-decoration: none;
     padding-top: 45%;
     text-align: center;
+    margin: 0;
+    opacity: 0;
+    height: 100%;
+    position: relative;
 }
-.card-work a::after {
+.card-work .card-title link {
+    display: block;
+    text-decoration: none;
+    padding-top: 45%;
+
+}
+.card-work .card-title a::after {
     position: absolute;
     top: 0;
     left: 0;
