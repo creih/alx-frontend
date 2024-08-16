@@ -47,7 +47,7 @@
     --section-tagline-margin: 0;/*task 19 line*/
     --button-display: inline-block;/*task 25 line*/
     --button-padding: 1.5rem 3rem;/*task 25 line*/
-    --button-border-radius: 0.2rem solid var(--color-primary);/*task 25 line*/
+    --button-border: 0.2rem solid var(--color-primary);/*task 25 line*/
     --button-color: var(--color-black);/*task 25 line*/
     --button-text-decoration: none;/*task 25 line*/
     --button-hover-color: var(--color-white);/*task 25 line*/
