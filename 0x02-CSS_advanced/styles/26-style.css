@@ -279,7 +279,7 @@ a:active {
 }
 .card-testimonial .card-quote cite {
     display: block;
-    padding-top: 100%;
+    padding-top: 1rem;
     color: var(--color-primary);
 
 }
