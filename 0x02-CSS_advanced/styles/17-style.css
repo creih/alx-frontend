@@ -102,7 +102,7 @@ a:active {
 
 /*task 10 begins*/
 .section-header {
-    padding: var(---section-header-padding);/*task 17 line*/
+    padding: var(--section-header-padding);/*task 17 line*/
     text-align: var(--section-header-align);
 }
 /*task 10 ends*/
