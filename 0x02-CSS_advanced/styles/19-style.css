@@ -176,7 +176,7 @@ a:active {
 /* 18 ends */
 
 /*task 19 starts*/
-.row ul {
+ul.row {
     margin: 0;
     padding: 0;
     list-style: none;
